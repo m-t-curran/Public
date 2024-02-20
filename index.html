@@ -29,6 +29,23 @@
 
     main {
       padding: 20px;
+      text-align: center;
+    }
+
+    .icon-row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .icon-box {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .icon-box img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
     }
 
     nav {
@@ -93,42 +110,35 @@
   </header>
 
   <main>
-    <!-- Your main content goes here -->
-    <p>Welcome to your BCSOapp home screen!</p>
-    <!-- Add more content as needed -->
+    <div class="icon-row">
+      <div class="icon-box">
+        <img src="your_folder_path/jail.png" alt="Jail Icon">
+        <p>Jail</p>
+      </div>
+      <div class="icon-box">
+        <img src="your_folder_path/active_shooters.png" alt="Active Shooters Icon">
+        <p>Active Shooters</p>
+      </div>
+      <div class="icon-box">
+        <img src="your_folder_path/shelters.png" alt="Shelters Icon">
+        <p>Shelters</p>
+      </div>
+    </div>
+
+    <div class="icon-row">
+      <div class="icon-box">
+        <img src="your_folder_path/warrants.png" alt="Warrants Icon">
+        <p>Warrants</p>
+      </div>
+      <div class="icon-box">
+        <img src="your_folder_path/missing.png" alt="Missing Icon">
+        <p>Missing</p>
+      </div>
+    </div>
   </main>
 
   <nav>
-    <section>
-      <a href="#jail">
-        <img src="your_folder_path/jail.png" alt="Jail Icon">
-        <p>Jail</p>
-      </a>
-    </section>
-    <section>
-      <a href="#active-shooters">
-        <img src="your_folder_path/active_shooters.png" alt="Active Shooters Icon">
-        <p>Active Shooters</p>
-      </a>
-    </section>
-    <section>
-      <a href="#shelters">
-        <img src="your_folder_path/shelters.png" alt="Shelters Icon">
-        <p>Shelters</p>
-      </a>
-    </section>
-    <section>
-      <a href="#warrants">
-        <img src="your_folder_path/warrants.png" alt="Warrants Icon">
-        <p>Warrants</p>
-      </a>
-    </section>
-    <section>
-      <a href="#missing">
-        <img src="your_folder_path/missing.png" alt="Missing Icon">
-        <p>Missing</p>
-      </a>
-    </section>
+    <!-- Add your navigation links here -->
   </nav>
 
 </body>
