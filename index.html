@@ -1,27 +1,65 @@
 <!DOCTYPE html>
-<body style="background-color:powderblue;">
-<title> Riddle </title>
-<center>
-  <h1>
-    Beware of the riddles that are to come.
-  </h1>
-  <h2>
-    This will be a sequence of different web quests 
-   </h2>
-  <h3>
-    If you wish to continue, click the button beneath.
-  </h3>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Web App</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
 
-</center>
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
 
-<button type="button" id="myBtn" onclick="myFunction()">click it</button>
+    main {
+      padding: 20px;
+    }
 
+    nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
 
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 5px;
+    }
 
-<script>
-function myFunction() {
- 
-window.open("https://titanumphenox.github.io/spam/test.html", "_blank", "top=810, left=840, width=810, height=810, menubar=yes,toolbar=yes, scrollbars=yes, resizable=no");
+    nav a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
 
-}
-</script>
+  <header>
+    <h1>Your Web App</h1>
+  </header>
+
+  <main>
+    <!-- Your main content goes here -->
+    <p>Welcome to your web app home screen!</p>
+  </main>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+</body>
+</html>
